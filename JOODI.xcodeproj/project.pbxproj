@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77400D72625AE8300C41E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400D62625AE8300C41E1D /* AppDelegate.swift */; };
+		E77400D92625AE8300C41E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400D82625AE8300C41E1D /* SceneDelegate.swift */; };
+		E77400DB2625AE8300C41E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400DA2625AE8300C41E1D /* ViewController.swift */; };
+		E77400DE2625AE8300C41E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77400DC2625AE8300C41E1D /* Main.storyboard */; };
+		E77400E02625AE8400C41E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77400DF2625AE8400C41E1D /* Assets.xcassets */; };
+		E77400E32625AE8400C41E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */; };
+		E77400EE2625AE8400C41E1D /* JOODITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400ED2625AE8400C41E1D /* JOODITests.swift */; };
+		E77400F92625AE8400C41E1D /* JOODIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400F82625AE8400C41E1D /* JOODIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77400EA2625AE8400C41E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77400CB2625AE8300C41E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77400D22625AE8300C41E1D;
+			remoteInfo = JOODI;
+		};
+		E77400F52625AE8400C41E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77400CB2625AE8300C41E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77400D22625AE8300C41E1D;
+			remoteInfo = JOODI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77400D32625AE8300C41E1D /* JOODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77400D62625AE8300C41E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E77400D82625AE8300C41E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E77400DA2625AE8300C41E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77400DD2625AE8300C41E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77400DF2625AE8400C41E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77400E22625AE8400C41E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77400E42625AE8400C41E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77400E92625AE8400C41E1D /* JOODITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOODITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77400ED2625AE8400C41E1D /* JOODITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOODITests.swift; sourceTree = "<group>"; };
+		E77400EF2625AE8400C41E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77400F42625AE8400C41E1D /* JOODIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOODIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77400F82625AE8400C41E1D /* JOODIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOODIUITests.swift; sourceTree = "<group>"; };
+		E77400FA2625AE8400C41E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77400D02625AE8300C41E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400E62625AE8400C41E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400F12625AE8400C41E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77400CA2625AE8300C41E1D = {
+			isa = PBXGroup;
+			children = (
+				E77400D52625AE8300C41E1D /* JOODI */,
+				E77400EC2625AE8400C41E1D /* JOODITests */,
+				E77400F72625AE8400C41E1D /* JOODIUITests */,
+				E77400D42625AE8300C41E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77400D42625AE8300C41E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77400D32625AE8300C41E1D /* JOODI.app */,
+				E77400E92625AE8400C41E1D /* JOODITests.xctest */,
+				E77400F42625AE8400C41E1D /* JOODIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77400D52625AE8300C41E1D /* JOODI */ = {
+			isa = PBXGroup;
+			children = (
+				E77400D62625AE8300C41E1D /* AppDelegate.swift */,
+				E77400D82625AE8300C41E1D /* SceneDelegate.swift */,
+				E77400DA2625AE8300C41E1D /* ViewController.swift */,
+				E77400DC2625AE8300C41E1D /* Main.storyboard */,
+				E77400DF2625AE8400C41E1D /* Assets.xcassets */,
+				E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */,
+				E77400E42625AE8400C41E1D /* Info.plist */,
+			);
+			path = JOODI;
+			sourceTree = "<group>";
+		};
+		E77400EC2625AE8400C41E1D /* JOODITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77400ED2625AE8400C41E1D /* JOODITests.swift */,
+				E77400EF2625AE8400C41E1D /* Info.plist */,
+			);
+			path = JOODITests;
+			sourceTree = "<group>";
+		};
+		E77400F72625AE8400C41E1D /* JOODIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77400F82625AE8400C41E1D /* JOODIUITests.swift */,
+				E77400FA2625AE8400C41E1D /* Info.plist */,
+			);
+			path = JOODIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77400D22625AE8300C41E1D /* JOODI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77400FD2625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODI" */;
+			buildPhases = (
+				E77400CF2625AE8300C41E1D /* Sources */,
+				E77400D02625AE8300C41E1D /* Frameworks */,
+				E77400D12625AE8300C41E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOODI;
+			productName = JOODI;
+			productReference = E77400D32625AE8300C41E1D /* JOODI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77400E82625AE8400C41E1D /* JOODITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77401002625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODITests" */;
+			buildPhases = (
+				E77400E52625AE8400C41E1D /* Sources */,
+				E77400E62625AE8400C41E1D /* Frameworks */,
+				E77400E72625AE8400C41E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77400EB2625AE8400C41E1D /* PBXTargetDependency */,
+			);
+			name = JOODITests;
+			productName = JOODITests;
+			productReference = E77400E92625AE8400C41E1D /* JOODITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77400F32625AE8400C41E1D /* JOODIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77401032625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODIUITests" */;
+			buildPhases = (
+				E77400F02625AE8400C41E1D /* Sources */,
+				E77400F12625AE8400C41E1D /* Frameworks */,
+				E77400F22625AE8400C41E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77400F62625AE8400C41E1D /* PBXTargetDependency */,
+			);
+			name = JOODIUITests;
+			productName = JOODIUITests;
+			productReference = E77400F42625AE8400C41E1D /* JOODIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77400CB2625AE8300C41E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E77400D22625AE8300C41E1D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E77400E82625AE8400C41E1D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E77400D22625AE8300C41E1D;
+					};
+					E77400F32625AE8400C41E1D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E77400D22625AE8300C41E1D;
+					};
+				};
+			};
+			buildConfigurationList = E77400CE2625AE8300C41E1D /* Build configuration list for PBXProject "JOODI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77400CA2625AE8300C41E1D;
+			productRefGroup = E77400D42625AE8300C41E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77400D22625AE8300C41E1D /* JOODI */,
+				E77400E82625AE8400C41E1D /* JOODITests */,
+				E77400F32625AE8400C41E1D /* JOODIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77400D12625AE8300C41E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77400E32625AE8400C41E1D /* LaunchScreen.storyboard in Resources */,
+				E77400E02625AE8400C41E1D /* Assets.xcassets in Resources */,
+				E77400DE2625AE8300C41E1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400E72625AE8400C41E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400F22625AE8400C41E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77400CF2625AE8300C41E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77400DB2625AE8300C41E1D /* ViewController.swift in Sources */,
+				E77400D72625AE8300C41E1D /* AppDelegate.swift in Sources */,
+				E77400D92625AE8300C41E1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400E52625AE8400C41E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77400EE2625AE8400C41E1D /* JOODITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77400F02625AE8400C41E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77400F92625AE8400C41E1D /* JOODIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77400EB2625AE8400C41E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77400D22625AE8300C41E1D /* JOODI */;
+			targetProxy = E77400EA2625AE8400C41E1D /* PBXContainerItemProxy */;
+		};
+		E77400F62625AE8400C41E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77400D22625AE8300C41E1D /* JOODI */;
+			targetProxy = E77400F52625AE8400C41E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77400DC2625AE8300C41E1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77400DD2625AE8300C41E1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77400E22625AE8400C41E1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77400FB2625AE8400C41E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77400FC2625AE8400C41E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77400FE2625AE8400C41E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77400FF2625AE8400C41E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77401012625AE8400C41E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JOODI.app/JOODI";
+			};
+			name = Debug;
+		};
+		E77401022625AE8400C41E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JOODI.app/JOODI";
+			};
+			name = Release;
+		};
+		E77401042625AE8400C41E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JOODI;
+			};
+			name = Debug;
+		};
+		E77401052625AE8400C41E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B7B77U382;
+				INFOPLIST_FILE = JOODIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JOODI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77400CE2625AE8300C41E1D /* Build configuration list for PBXProject "JOODI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77400FB2625AE8400C41E1D /* Debug */,
+				E77400FC2625AE8400C41E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77400FD2625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77400FE2625AE8400C41E1D /* Debug */,
+				E77400FF2625AE8400C41E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77401002625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77401012625AE8400C41E1D /* Debug */,
+				E77401022625AE8400C41E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77401032625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77401042625AE8400C41E1D /* Debug */,
+				E77401052625AE8400C41E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77400CB2625AE8300C41E1D /* Project object */;
+}
