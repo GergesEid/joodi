@@ -1,0 +1,44 @@
+PODS:
+  - ADCountryPicker (2.1.0)
+  - Alamofire (5.0.5)
+  - Cosmos (19.0.3)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.1.9)
+  - Toast-Swift (4.0.1)
+  - ViewAnimator (2.7.1)
+
+DEPENDENCIES:
+  - ADCountryPicker (~> 2.1.0)
+  - Alamofire (~> 5.0.0-rc.2)
+  - Cosmos (~> 19.0)
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - lottie-ios (~> 3.0)
+  - Toast-Swift (~> 4.0.0)
+  - ViewAnimator (~> 2.7.1)
+
+SPEC REPOS:
+  trunk:
+    - ADCountryPicker
+    - Alamofire
+    - Cosmos
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - Toast-Swift
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  ViewAnimator: 7512352ec4dec2901b980d16b1256d601c30a44c
+
+PODFILE CHECKSUM: 874a19f16b73dd39edee0ff0b80a0ea45c6bd3ff
+
+COCOAPODS: 1.9.3
