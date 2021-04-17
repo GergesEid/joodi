@@ -25,8 +25,8 @@ class RegisterInteractor {
             return
         }
     }
-    
-    
+
+    // post register an order
     func postRegisterOrder(name:String, phone:String, time:String, shopperId:Int, location:String, completion: @escaping ([RegisterOrderModel]?, Error?) -> ()) {
         let url = "https://60719d9350aaea0017284d61.mockapi.io/api/Orders"
         AF.request(url,method: .get, encoding : JSONEncoding.default,headers:nil).responseDecodable { (response: AFDataResponse<[RegisterOrderModel]>) in

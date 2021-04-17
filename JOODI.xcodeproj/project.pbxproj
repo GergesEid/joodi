@@ -22,7 +22,6 @@
 		E71CACA3262B4BC400313A0F /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */; };
 		E71CACA4262B4BC400313A0F /* ItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */; };
 		E74E7FFB2629F43100B58F42 /* calendarTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */; };
-		E74E80002629F4DF00B58F42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E7FFF2629F4DF00B58F42 /* Constants.swift */; };
 		E74E80052629F51500B58F42 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E80042629F51500B58F42 /* Notification.Name.swift */; };
 		E74E800D262A177D00B58F42 /* googleSearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */; };
 		E74E8012262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E8011262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift */; };
@@ -114,7 +113,6 @@
 		E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
 		E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsTableViewCell.xib; sourceTree = "<group>"; };
 		E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTimeViewController.swift; sourceTree = "<group>"; };
-		E74E7FFF2629F4DF00B58F42 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E74E80042629F51500B58F42 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
 		E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleSearchAddressViewController.swift; sourceTree = "<group>"; };
 		E74E8011262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "googleSearchAddressViewController + TableViewExtension.swift"; sourceTree = "<group>"; };
@@ -387,7 +385,6 @@
 				E77401682625E15700C41E1D /* setUI.swift */,
 				E774017B2625E3CC00C41E1D /* DismissKeyboard.swift */,
 				E774022C26287B4000C41E1D /* LottieAnimationExtension.swift */,
-				E74E7FFF2629F4DF00B58F42 /* Constants.swift */,
 				E74E80042629F51500B58F42 /* Notification.Name.swift */,
 			);
 			path = Extensions;
@@ -730,7 +727,6 @@
 				E77400D72625AE8300C41E1D /* AppDelegate.swift in Sources */,
 				E74E7FFB2629F43100B58F42 /* calendarTimeViewController.swift in Sources */,
 				E77B9193262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift in Sources */,
-				E74E80002629F4DF00B58F42 /* Constants.swift in Sources */,
 				E71CAC98262B427600313A0F /* OrderDetailsModel.swift in Sources */,
 				E774017C2625E3CC00C41E1D /* DismissKeyboard.swift in Sources */,
 				E77401692625E15700C41E1D /* setUI.swift in Sources */,

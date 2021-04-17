@@ -26,6 +26,4 @@ extension UIViewController {
         view.layer.borderWidth = 1
         view.layer.borderColor = UIColor.red.cgColor
     }
-    
-    
 }
