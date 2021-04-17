@@ -3,18 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C29561631B711F87B51F7B6 /* Pods_JOODI_JOODIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB75DB52BD30D611E3E8582 /* Pods_JOODI_JOODIUITests.framework */; };
+		4ACB9A4B7525506039D0A77A /* Pods_JOODI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B61E12238475B39C2E60A /* Pods_JOODI.framework */; };
+		611BA1B8EEB60520460039AA /* Pods_JOODITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72D8167BF680A034B02A200 /* Pods_JOODITests.framework */; };
+		E71CAC71262B34F200313A0F /* AllOrders + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC70262B34F200313A0F /* AllOrders + TableView.swift */; };
+		E71CAC77262B39D800313A0F /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC75262B39D800313A0F /* OrdersTableViewCell.swift */; };
+		E71CAC78262B39D800313A0F /* OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71CAC76262B39D800313A0F /* OrdersTableViewCell.xib */; };
+		E71CAC81262B40C300313A0F /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC80262B40C300313A0F /* OrderDetailsViewController.swift */; };
+		E71CAC89262B412A00313A0F /* OrderDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC88262B412A00313A0F /* OrderDetailsPresenter.swift */; };
+		E71CAC8E262B418700313A0F /* OrderDetailsVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC8D262B418700313A0F /* OrderDetailsVCPresenter.swift */; };
+		E71CAC93262B41F800313A0F /* OrderDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC92262B41F800313A0F /* OrderDetailsInteractor.swift */; };
+		E71CAC98262B427600313A0F /* OrderDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC97262B427600313A0F /* OrderDetailsModel.swift */; };
+		E71CAC9D262B491100313A0F /* Items + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC9C262B491100313A0F /* Items + TableView.swift */; };
+		E71CACA3262B4BC400313A0F /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */; };
+		E71CACA4262B4BC400313A0F /* ItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */; };
+		E74E7FFB2629F43100B58F42 /* calendarTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */; };
+		E74E80002629F4DF00B58F42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E7FFF2629F4DF00B58F42 /* Constants.swift */; };
+		E74E80052629F51500B58F42 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E80042629F51500B58F42 /* Notification.Name.swift */; };
+		E74E800D262A177D00B58F42 /* googleSearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */; };
+		E74E8012262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E8011262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift */; };
+		E74E8017262A190F00B58F42 /* googleSearchAddressViewController + UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E8016262A190F00B58F42 /* googleSearchAddressViewController + UITextFieldExtension.swift */; };
+		E74E8022262A1A9800B58F42 /* addressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E8021262A1A9800B58F42 /* addressTableViewCell.swift */; };
 		E77400D72625AE8300C41E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400D62625AE8300C41E1D /* AppDelegate.swift */; };
 		E77400D92625AE8300C41E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400D82625AE8300C41E1D /* SceneDelegate.swift */; };
-		E77400DB2625AE8300C41E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400DA2625AE8300C41E1D /* ViewController.swift */; };
+		E77400DB2625AE8300C41E1D /* RegisterAnOrdeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400DA2625AE8300C41E1D /* RegisterAnOrdeerViewController.swift */; };
 		E77400DE2625AE8300C41E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77400DC2625AE8300C41E1D /* Main.storyboard */; };
 		E77400E02625AE8400C41E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77400DF2625AE8400C41E1D /* Assets.xcassets */; };
 		E77400E32625AE8400C41E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */; };
 		E77400EE2625AE8400C41E1D /* JOODITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400ED2625AE8400C41E1D /* JOODITests.swift */; };
 		E77400F92625AE8400C41E1D /* JOODIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77400F82625AE8400C41E1D /* JOODIUITests.swift */; };
+		E774015C2625DD5800C41E1D /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774015B2625DD5800C41E1D /* RegisterInteractor.swift */; };
+		E77401612625DE3C00C41E1D /* ShoppersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77401602625DE3C00C41E1D /* ShoppersModel.swift */; };
+		E77401692625E15700C41E1D /* setUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77401682625E15700C41E1D /* setUI.swift */; };
+		E774017C2625E3CC00C41E1D /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774017B2625E3CC00C41E1D /* DismissKeyboard.swift */; };
+		E77401892625E5E500C41E1D /* RegisterAnOrderExtension + ADCountryPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77401882625E5E500C41E1D /* RegisterAnOrderExtension + ADCountryPickerDelegate.swift */; };
+		E77401912625E89F00C41E1D /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E774018D2625E89F00C41E1D /* Almarai-Regular.ttf */; };
+		E77401922625E89F00C41E1D /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E774018E2625E89F00C41E1D /* Almarai-Light.ttf */; };
+		E77401932625E89F00C41E1D /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E774018F2625E89F00C41E1D /* Almarai-Bold.ttf */; };
+		E77401942625E89F00C41E1D /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E77401902625E89F00C41E1D /* Almarai-ExtraBold.ttf */; };
+		E77401BB2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77401BA2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift */; };
+		E77401CA2627298100C41E1D /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = E77401C92627298100C41E1D /* loading.json */; };
+		E774022D26287B4000C41E1D /* LottieAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774022C26287B4000C41E1D /* LottieAnimationExtension.swift */; };
+		E7740235262887B900C41E1D /* RegisterAnOrderVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7740234262887B900C41E1D /* RegisterAnOrderVCPresenter.swift */; };
+		E774024026288B6200C41E1D /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774023F26288B6200C41E1D /* RegisterPresenter.swift */; };
+		E77B9185262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9184262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift */; };
+		E77B918C262A56B000199BF1 /* RegisterOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B918B262A56B000199BF1 /* RegisterOrderModel.swift */; };
+		E77B918D262A56B000199BF1 /* RegisterOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B918B262A56B000199BF1 /* RegisterOrderModel.swift */; };
+		E77B918E262A56B000199BF1 /* RegisterOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B918B262A56B000199BF1 /* RegisterOrderModel.swift */; };
+		E77B9193262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9192262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift */; };
+		E77B91C0262AF94B00199BF1 /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91BF262AF94B00199BF1 /* AddReviewViewController.swift */; };
+		E77B91C1262AF94B00199BF1 /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91BF262AF94B00199BF1 /* AddReviewViewController.swift */; };
+		E77B91C2262AF94B00199BF1 /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91BF262AF94B00199BF1 /* AddReviewViewController.swift */; };
+		E77B91C7262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91C6262AFB8000199BF1 /* AddReview + Cosmos.swift */; };
+		E77B91C8262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91C6262AFB8000199BF1 /* AddReview + Cosmos.swift */; };
+		E77B91C9262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91C6262AFB8000199BF1 /* AddReview + Cosmos.swift */; };
+		E77B91DC262AFF7400199BF1 /* AddReview + UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91DB262AFF7400199BF1 /* AddReview + UITextViewExtension.swift */; };
+		E77B91E1262B025200199BF1 /* AddReview + CheckValidationReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91E0262B025100199BF1 /* AddReview + CheckValidationReview.swift */; };
+		E77B91E6262B1B1600199BF1 /* ReviewVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91E5262B1B1600199BF1 /* ReviewVCPresenter.swift */; };
+		E77B91F3262B1BAC00199BF1 /* ReviewVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91F2262B1BAC00199BF1 /* ReviewVCInteractor.swift */; };
+		E77B91F8262B1D5F00199BF1 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91F7262B1D5F00199BF1 /* ReviewModel.swift */; };
+		E77B91FD262B1EDE00199BF1 /* AnReviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B91FC262B1EDE00199BF1 /* AnReviewPresenter.swift */; };
+		E77B9202262B1F3700199BF1 /* ReviewShowSuccessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9201262B1F3700199BF1 /* ReviewShowSuccessData.swift */; };
+		E77B920A262B2A8500199BF1 /* AllOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9209262B2A8500199BF1 /* AllOrderModel.swift */; };
+		E77B921A262B2B5800199BF1 /* AllOrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9219262B2B5800199BF1 /* AllOrderInteractor.swift */; };
+		E77B921F262B2B6200199BF1 /* AllOrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B921E262B2B6200199BF1 /* AllOrderPresenter.swift */; };
+		E77B9228262B2C5F00199BF1 /* AllOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B9227262B2C5F00199BF1 /* AllOrdersViewController.swift */; };
+		E77B922D262B2C9400199BF1 /* AllOrdersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B922C262B2C9400199BF1 /* AllOrdersPresenter.swift */; };
+		E7BE18C526289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE18C426289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +94,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20BC3F3A23627627A6C17198 /* Pods-JOODI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODI.release.xcconfig"; path = "Target Support Files/Pods-JOODI/Pods-JOODI.release.xcconfig"; sourceTree = "<group>"; };
+		32F8C823E3E6F40047501891 /* Pods-JOODITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODITests.release.xcconfig"; path = "Target Support Files/Pods-JOODITests/Pods-JOODITests.release.xcconfig"; sourceTree = "<group>"; };
+		780B61E12238475B39C2E60A /* Pods_JOODI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JOODI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB75DB52BD30D611E3E8582 /* Pods_JOODI_JOODIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JOODI_JOODIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83382C8514C0516A30DCF25D /* Pods-JOODI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODI.debug.xcconfig"; path = "Target Support Files/Pods-JOODI/Pods-JOODI.debug.xcconfig"; sourceTree = "<group>"; };
+		8418A3FB70C484137D7CD4A5 /* Pods-JOODITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODITests.debug.xcconfig"; path = "Target Support Files/Pods-JOODITests/Pods-JOODITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A72D8167BF680A034B02A200 /* Pods_JOODITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JOODITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95CCAA11DE2565F497B4210 /* Pods-JOODI-JOODIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODI-JOODIUITests.debug.xcconfig"; path = "Target Support Files/Pods-JOODI-JOODIUITests/Pods-JOODI-JOODIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E71CAC70262B34F200313A0F /* AllOrders + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllOrders + TableView.swift"; sourceTree = "<group>"; };
+		E71CAC75262B39D800313A0F /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		E71CAC76262B39D800313A0F /* OrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersTableViewCell.xib; sourceTree = "<group>"; };
+		E71CAC80262B40C300313A0F /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		E71CAC88262B412A00313A0F /* OrderDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsPresenter.swift; sourceTree = "<group>"; };
+		E71CAC8D262B418700313A0F /* OrderDetailsVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsVCPresenter.swift; sourceTree = "<group>"; };
+		E71CAC92262B41F800313A0F /* OrderDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsInteractor.swift; sourceTree = "<group>"; };
+		E71CAC97262B427600313A0F /* OrderDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsModel.swift; sourceTree = "<group>"; };
+		E71CAC9C262B491100313A0F /* Items + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items + TableView.swift"; sourceTree = "<group>"; };
+		E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsTableViewCell.xib; sourceTree = "<group>"; };
+		E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTimeViewController.swift; sourceTree = "<group>"; };
+		E74E7FFF2629F4DF00B58F42 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E74E80042629F51500B58F42 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
+		E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleSearchAddressViewController.swift; sourceTree = "<group>"; };
+		E74E8011262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "googleSearchAddressViewController + TableViewExtension.swift"; sourceTree = "<group>"; };
+		E74E8016262A190F00B58F42 /* googleSearchAddressViewController + UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "googleSearchAddressViewController + UITextFieldExtension.swift"; sourceTree = "<group>"; };
+		E74E8021262A1A9800B58F42 /* addressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addressTableViewCell.swift; sourceTree = "<group>"; };
 		E77400D32625AE8300C41E1D /* JOODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77400D62625AE8300C41E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77400D82625AE8300C41E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E77400DA2625AE8300C41E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77400DA2625AE8300C41E1D /* RegisterAnOrdeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAnOrdeerViewController.swift; sourceTree = "<group>"; };
 		E77400DD2625AE8300C41E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E77400DF2625AE8400C41E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77400E22625AE8400C41E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +134,39 @@
 		E77400F42625AE8400C41E1D /* JOODIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOODIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77400F82625AE8400C41E1D /* JOODIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOODIUITests.swift; sourceTree = "<group>"; };
 		E77400FA2625AE8400C41E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E774015B2625DD5800C41E1D /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		E77401602625DE3C00C41E1D /* ShoppersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppersModel.swift; sourceTree = "<group>"; };
+		E77401682625E15700C41E1D /* setUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUI.swift; sourceTree = "<group>"; };
+		E774017B2625E3CC00C41E1D /* DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
+		E77401882625E5E500C41E1D /* RegisterAnOrderExtension + ADCountryPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterAnOrderExtension + ADCountryPickerDelegate.swift"; sourceTree = "<group>"; };
+		E774018D2625E89F00C41E1D /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		E774018E2625E89F00C41E1D /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
+		E774018F2625E89F00C41E1D /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		E77401902625E89F00C41E1D /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E77401BA2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RigesterAnOrderExtension + UITextfieldDelegate.swift"; sourceTree = "<group>"; };
+		E77401C92627298100C41E1D /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		E774022C26287B4000C41E1D /* LottieAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationExtension.swift; sourceTree = "<group>"; };
+		E7740234262887B900C41E1D /* RegisterAnOrderVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAnOrderVCPresenter.swift; sourceTree = "<group>"; };
+		E774023F26288B6200C41E1D /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		E77B9184262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterAnOrdeerViewController + CheckValidPost.swift"; sourceTree = "<group>"; };
+		E77B918B262A56B000199BF1 /* RegisterOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterOrderModel.swift; sourceTree = "<group>"; };
+		E77B9192262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterAnOrdeerVC + ShowSuccesAlert.swift"; sourceTree = "<group>"; };
+		E77B91BF262AF94B00199BF1 /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		E77B91C6262AFB8000199BF1 /* AddReview + Cosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddReview + Cosmos.swift"; sourceTree = "<group>"; };
+		E77B91DB262AFF7400199BF1 /* AddReview + UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddReview + UITextViewExtension.swift"; sourceTree = "<group>"; };
+		E77B91E0262B025100199BF1 /* AddReview + CheckValidationReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddReview + CheckValidationReview.swift"; sourceTree = "<group>"; };
+		E77B91E5262B1B1600199BF1 /* ReviewVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVCPresenter.swift; sourceTree = "<group>"; };
+		E77B91F2262B1BAC00199BF1 /* ReviewVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVCInteractor.swift; sourceTree = "<group>"; };
+		E77B91F7262B1D5F00199BF1 /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		E77B91FC262B1EDE00199BF1 /* AnReviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnReviewPresenter.swift; sourceTree = "<group>"; };
+		E77B9201262B1F3700199BF1 /* ReviewShowSuccessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewShowSuccessData.swift; sourceTree = "<group>"; };
+		E77B9209262B2A8500199BF1 /* AllOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrderModel.swift; sourceTree = "<group>"; };
+		E77B9219262B2B5800199BF1 /* AllOrderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrderInteractor.swift; sourceTree = "<group>"; };
+		E77B921E262B2B6200199BF1 /* AllOrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrderPresenter.swift; sourceTree = "<group>"; };
+		E77B9227262B2C5F00199BF1 /* AllOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrdersViewController.swift; sourceTree = "<group>"; };
+		E77B922C262B2C9400199BF1 /* AllOrdersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrdersPresenter.swift; sourceTree = "<group>"; };
+		E7BE18C426289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterAnOrdeer + DropDown.swift"; sourceTree = "<group>"; };
+		E80B2AD2BDB968FC66357D8C /* Pods-JOODI-JOODIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JOODI-JOODIUITests.release.xcconfig"; path = "Target Support Files/Pods-JOODI-JOODIUITests/Pods-JOODI-JOODIUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACB9A4B7525506039D0A77A /* Pods_JOODI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611BA1B8EEB60520460039AA /* Pods_JOODITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +190,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C29561631B711F87B51F7B6 /* Pods_JOODI_JOODIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		287869CBCD1AA8B7402BBC5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83382C8514C0516A30DCF25D /* Pods-JOODI.debug.xcconfig */,
+				20BC3F3A23627627A6C17198 /* Pods-JOODI.release.xcconfig */,
+				B95CCAA11DE2565F497B4210 /* Pods-JOODI-JOODIUITests.debug.xcconfig */,
+				E80B2AD2BDB968FC66357D8C /* Pods-JOODI-JOODIUITests.release.xcconfig */,
+				8418A3FB70C484137D7CD4A5 /* Pods-JOODITests.debug.xcconfig */,
+				32F8C823E3E6F40047501891 /* Pods-JOODITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC4A7582D66F2759F3931663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780B61E12238475B39C2E60A /* Pods_JOODI.framework */,
+				7CB75DB52BD30D611E3E8582 /* Pods_JOODI_JOODIUITests.framework */,
+				A72D8167BF680A034B02A200 /* Pods_JOODITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71CAC7F262B40A200313A0F /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E71CAC80262B40C300313A0F /* OrderDetailsViewController.swift */,
+				E71CAC88262B412A00313A0F /* OrderDetailsPresenter.swift */,
+				E71CAC9C262B491100313A0F /* Items + TableView.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
 		E77400CA2625AE8300C41E1D = {
 			isa = PBXGroup;
 			children = (
+				E774018F2625E89F00C41E1D /* Almarai-Bold.ttf */,
+				E77401902625E89F00C41E1D /* Almarai-ExtraBold.ttf */,
+				E774018E2625E89F00C41E1D /* Almarai-Light.ttf */,
+				E774018D2625E89F00C41E1D /* Almarai-Regular.ttf */,
 				E77400D52625AE8300C41E1D /* JOODI */,
 				E77400EC2625AE8400C41E1D /* JOODITests */,
 				E77400F72625AE8400C41E1D /* JOODIUITests */,
 				E77400D42625AE8300C41E1D /* Products */,
+				287869CBCD1AA8B7402BBC5F /* Pods */,
+				AC4A7582D66F2759F3931663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +259,13 @@
 		E77400D52625AE8300C41E1D /* JOODI */ = {
 			isa = PBXGroup;
 			children = (
-				E77400D62625AE8300C41E1D /* AppDelegate.swift */,
-				E77400D82625AE8300C41E1D /* SceneDelegate.swift */,
-				E77400DA2625AE8300C41E1D /* ViewController.swift */,
-				E77400DC2625AE8300C41E1D /* Main.storyboard */,
-				E77400DF2625AE8400C41E1D /* Assets.xcassets */,
-				E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */,
-				E77400E42625AE8400C41E1D /* Info.plist */,
+				E774011F2625B88900C41E1D /* Model */,
+				E77401152625B57F00C41E1D /* Scenes */,
+				E774011C2625B78C00C41E1D /* Storyboards */,
+				E774011E2625B82800C41E1D /* Extensions */,
+				E774011A2625B60C00C41E1D /* Resources */,
+				E774011B2625B6C400C41E1D /* Configuration */,
+				E774011D2625B82300C41E1D /* Core */,
 			);
 			path = JOODI;
 			sourceTree = "<group>";
@@ -128,6 +288,186 @@
 			path = JOODIUITests;
 			sourceTree = "<group>";
 		};
+		E77401152625B57F00C41E1D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E77401192625B5F600C41E1D /* Controllers */,
+				E77401182625B5E700C41E1D /* TableViewCells */,
+				E77401172625B5BA00C41E1D /* Presenter */,
+				E77401162625B59600C41E1D /* Interactor */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E77401162625B59600C41E1D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E774015B2625DD5800C41E1D /* RegisterInteractor.swift */,
+				E77B91F2262B1BAC00199BF1 /* ReviewVCInteractor.swift */,
+				E77B9219262B2B5800199BF1 /* AllOrderInteractor.swift */,
+				E71CAC92262B41F800313A0F /* OrderDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E77401172625B5BA00C41E1D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E7740234262887B900C41E1D /* RegisterAnOrderVCPresenter.swift */,
+				E77B91E5262B1B1600199BF1 /* ReviewVCPresenter.swift */,
+				E77B921E262B2B6200199BF1 /* AllOrderPresenter.swift */,
+				E71CAC8D262B418700313A0F /* OrderDetailsVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E77401182625B5E700C41E1D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E74E8021262A1A9800B58F42 /* addressTableViewCell.swift */,
+				E71CAC75262B39D800313A0F /* OrdersTableViewCell.swift */,
+				E71CAC76262B39D800313A0F /* OrdersTableViewCell.xib */,
+				E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */,
+				E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E77401192625B5F600C41E1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E77B919C262AEE3A00199BF1 /* Register */,
+				E77B91AF262AEE7900199BF1 /* CalenderTime */,
+				E77B91B0262AEE9200199BF1 /* GoogleSearchAddress */,
+				E77B91B1262AEEBC00199BF1 /* Review */,
+				E77B9223262B2B7100199BF1 /* AllOrder */,
+				E71CAC7F262B40A200313A0F /* OrderDetails */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E774011A2625B60C00C41E1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77401C52627296200C41E1D /* Animation */,
+				E77400DF2625AE8400C41E1D /* Assets.xcassets */,
+				E77400E12625AE8400C41E1D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E774011B2625B6C400C41E1D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E77400E42625AE8400C41E1D /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E774011C2625B78C00C41E1D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E77400DC2625AE8300C41E1D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E774011D2625B82300C41E1D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E77400D62625AE8300C41E1D /* AppDelegate.swift */,
+				E77400D82625AE8300C41E1D /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E774011E2625B82800C41E1D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E77401682625E15700C41E1D /* setUI.swift */,
+				E774017B2625E3CC00C41E1D /* DismissKeyboard.swift */,
+				E774022C26287B4000C41E1D /* LottieAnimationExtension.swift */,
+				E74E7FFF2629F4DF00B58F42 /* Constants.swift */,
+				E74E80042629F51500B58F42 /* Notification.Name.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E774011F2625B88900C41E1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E77401602625DE3C00C41E1D /* ShoppersModel.swift */,
+				E77B918B262A56B000199BF1 /* RegisterOrderModel.swift */,
+				E77B91F7262B1D5F00199BF1 /* ReviewModel.swift */,
+				E77B9209262B2A8500199BF1 /* AllOrderModel.swift */,
+				E71CAC97262B427600313A0F /* OrderDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E77401C52627296200C41E1D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E77401C92627298100C41E1D /* loading.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		E77B919C262AEE3A00199BF1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				E77400DA2625AE8300C41E1D /* RegisterAnOrdeerViewController.swift */,
+				E774023F26288B6200C41E1D /* RegisterPresenter.swift */,
+				E77401882625E5E500C41E1D /* RegisterAnOrderExtension + ADCountryPickerDelegate.swift */,
+				E77401BA2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift */,
+				E7BE18C426289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift */,
+				E77B9184262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift */,
+				E77B9192262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		E77B91AF262AEE7900199BF1 /* CalenderTime */ = {
+			isa = PBXGroup;
+			children = (
+				E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */,
+			);
+			path = CalenderTime;
+			sourceTree = "<group>";
+		};
+		E77B91B0262AEE9200199BF1 /* GoogleSearchAddress */ = {
+			isa = PBXGroup;
+			children = (
+				E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */,
+				E74E8011262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift */,
+				E74E8016262A190F00B58F42 /* googleSearchAddressViewController + UITextFieldExtension.swift */,
+			);
+			path = GoogleSearchAddress;
+			sourceTree = "<group>";
+		};
+		E77B91B1262AEEBC00199BF1 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				E77B91BF262AF94B00199BF1 /* AddReviewViewController.swift */,
+				E77B91FC262B1EDE00199BF1 /* AnReviewPresenter.swift */,
+				E77B91C6262AFB8000199BF1 /* AddReview + Cosmos.swift */,
+				E77B91DB262AFF7400199BF1 /* AddReview + UITextViewExtension.swift */,
+				E77B91E0262B025100199BF1 /* AddReview + CheckValidationReview.swift */,
+				E77B9201262B1F3700199BF1 /* ReviewShowSuccessData.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		E77B9223262B2B7100199BF1 /* AllOrder */ = {
+			isa = PBXGroup;
+			children = (
+				E77B9227262B2C5F00199BF1 /* AllOrdersViewController.swift */,
+				E77B922C262B2C9400199BF1 /* AllOrdersPresenter.swift */,
+				E71CAC70262B34F200313A0F /* AllOrders + TableView.swift */,
+			);
+			path = AllOrder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +475,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E77400FD2625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODI" */;
 			buildPhases = (
+				4ECC8650732515FAC7EC4FDA /* [CP] Check Pods Manifest.lock */,
 				E77400CF2625AE8300C41E1D /* Sources */,
 				E77400D02625AE8300C41E1D /* Frameworks */,
 				E77400D12625AE8300C41E1D /* Resources */,
+				7A48512F2472CA4BAFA28432 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +494,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E77401002625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODITests" */;
 			buildPhases = (
+				8E22B6CA6565E3E9A65B7F7C /* [CP] Check Pods Manifest.lock */,
 				E77400E52625AE8400C41E1D /* Sources */,
 				E77400E62625AE8400C41E1D /* Frameworks */,
 				E77400E72625AE8400C41E1D /* Resources */,
@@ -170,9 +513,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E77401032625AE8400C41E1D /* Build configuration list for PBXNativeTarget "JOODIUITests" */;
 			buildPhases = (
+				9452ABAC07CECD51D912381A /* [CP] Check Pods Manifest.lock */,
 				E77400F02625AE8400C41E1D /* Sources */,
 				E77400F12625AE8400C41E1D /* Frameworks */,
 				E77400F22625AE8400C41E1D /* Resources */,
+				1C9C4316A093B6C4C000A82B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +576,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77401922625E89F00C41E1D /* Almarai-Light.ttf in Resources */,
+				E77401942625E89F00C41E1D /* Almarai-ExtraBold.ttf in Resources */,
+				E71CAC78262B39D800313A0F /* OrdersTableViewCell.xib in Resources */,
+				E77401CA2627298100C41E1D /* loading.json in Resources */,
+				E71CACA4262B4BC400313A0F /* ItemsTableViewCell.xib in Resources */,
+				E77401932625E89F00C41E1D /* Almarai-Bold.ttf in Resources */,
 				E77400E32625AE8400C41E1D /* LaunchScreen.storyboard in Resources */,
+				E77401912625E89F00C41E1D /* Almarai-Regular.ttf in Resources */,
 				E77400E02625AE8400C41E1D /* Assets.xcassets in Resources */,
 				E77400DE2625AE8300C41E1D /* Main.storyboard in Resources */,
 			);
@@ -253,14 +605,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C9C4316A093B6C4C000A82B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JOODI-JOODIUITests/Pods-JOODI-JOODIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JOODI-JOODIUITests/Pods-JOODI-JOODIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JOODI-JOODIUITests/Pods-JOODI-JOODIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECC8650732515FAC7EC4FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JOODI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A48512F2472CA4BAFA28432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JOODI/Pods-JOODI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JOODI/Pods-JOODI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JOODI/Pods-JOODI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E22B6CA6565E3E9A65B7F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JOODITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9452ABAC07CECD51D912381A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JOODI-JOODIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E77400CF2625AE8300C41E1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77400DB2625AE8300C41E1D /* ViewController.swift in Sources */,
+				E74E8017262A190F00B58F42 /* googleSearchAddressViewController + UITextFieldExtension.swift in Sources */,
+				E77B91E6262B1B1600199BF1 /* ReviewVCPresenter.swift in Sources */,
+				E77400DB2625AE8300C41E1D /* RegisterAnOrdeerViewController.swift in Sources */,
+				E77401612625DE3C00C41E1D /* ShoppersModel.swift in Sources */,
+				E77B922D262B2C9400199BF1 /* AllOrdersPresenter.swift in Sources */,
+				E77B91FD262B1EDE00199BF1 /* AnReviewPresenter.swift in Sources */,
+				E77B921F262B2B6200199BF1 /* AllOrderPresenter.swift in Sources */,
+				E774015C2625DD5800C41E1D /* RegisterInteractor.swift in Sources */,
+				E71CAC81262B40C300313A0F /* OrderDetailsViewController.swift in Sources */,
+				E77B91F8262B1D5F00199BF1 /* ReviewModel.swift in Sources */,
+				E77B91C7262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */,
+				E74E8012262A189300B58F42 /* googleSearchAddressViewController + TableViewExtension.swift in Sources */,
+				E71CACA3262B4BC400313A0F /* ItemsTableViewCell.swift in Sources */,
+				E74E8022262A1A9800B58F42 /* addressTableViewCell.swift in Sources */,
 				E77400D72625AE8300C41E1D /* AppDelegate.swift in Sources */,
+				E74E7FFB2629F43100B58F42 /* calendarTimeViewController.swift in Sources */,
+				E77B9193262A5DD300199BF1 /* RegisterAnOrdeerVC + ShowSuccesAlert.swift in Sources */,
+				E74E80002629F4DF00B58F42 /* Constants.swift in Sources */,
+				E71CAC98262B427600313A0F /* OrderDetailsModel.swift in Sources */,
+				E774017C2625E3CC00C41E1D /* DismissKeyboard.swift in Sources */,
+				E77401692625E15700C41E1D /* setUI.swift in Sources */,
+				E77B91DC262AFF7400199BF1 /* AddReview + UITextViewExtension.swift in Sources */,
+				E71CAC71262B34F200313A0F /* AllOrders + TableView.swift in Sources */,
+				E71CAC8E262B418700313A0F /* OrderDetailsVCPresenter.swift in Sources */,
+				E71CAC9D262B491100313A0F /* Items + TableView.swift in Sources */,
+				E74E80052629F51500B58F42 /* Notification.Name.swift in Sources */,
+				E71CAC93262B41F800313A0F /* OrderDetailsInteractor.swift in Sources */,
+				E7740235262887B900C41E1D /* RegisterAnOrderVCPresenter.swift in Sources */,
+				E774024026288B6200C41E1D /* RegisterPresenter.swift in Sources */,
+				E77401892625E5E500C41E1D /* RegisterAnOrderExtension + ADCountryPickerDelegate.swift in Sources */,
+				E77B918C262A56B000199BF1 /* RegisterOrderModel.swift in Sources */,
+				E71CAC89262B412A00313A0F /* OrderDetailsPresenter.swift in Sources */,
+				E77401BB2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift in Sources */,
+				E77B91C0262AF94B00199BF1 /* AddReviewViewController.swift in Sources */,
+				E7BE18C526289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift in Sources */,
+				E77B9185262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift in Sources */,
+				E774022D26287B4000C41E1D /* LottieAnimationExtension.swift in Sources */,
+				E77B91F3262B1BAC00199BF1 /* ReviewVCInteractor.swift in Sources */,
+				E77B9202262B1F3700199BF1 /* ReviewShowSuccessData.swift in Sources */,
+				E77B91E1262B025200199BF1 /* AddReview + CheckValidationReview.swift in Sources */,
 				E77400D92625AE8300C41E1D /* SceneDelegate.swift in Sources */,
+				E74E800D262A177D00B58F42 /* googleSearchAddressViewController.swift in Sources */,
+				E77B920A262B2A8500199BF1 /* AllOrderModel.swift in Sources */,
+				E77B921A262B2B5800199BF1 /* AllOrderInteractor.swift in Sources */,
+				E71CAC77262B39D800313A0F /* OrdersTableViewCell.swift in Sources */,
+				E77B9228262B2C5F00199BF1 /* AllOrdersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +766,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77B91C1262AF94B00199BF1 /* AddReviewViewController.swift in Sources */,
+				E77B91C8262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */,
+				E77B918D262A56B000199BF1 /* RegisterOrderModel.swift in Sources */,
 				E77400EE2625AE8400C41E1D /* JOODITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +777,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77B91C2262AF94B00199BF1 /* AddReviewViewController.swift in Sources */,
+				E77B91C9262AFB8000199BF1 /* AddReview + Cosmos.swift in Sources */,
+				E77B918E262A56B000199BF1 /* RegisterOrderModel.swift in Sources */,
 				E77400F92625AE8400C41E1D /* JOODIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +937,13 @@
 		};
 		E77400FE2625AE8400C41E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83382C8514C0516A30DCF25D /* Pods-JOODI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B7B77U382;
-				INFOPLIST_FILE = JOODI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JOODI/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +951,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E77400FF2625AE8400C41E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BC3F3A23627627A6C17198 /* Pods-JOODI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B7B77U382;
-				INFOPLIST_FILE = JOODI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JOODI/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +971,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GergesEid.JOODI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E77401012625AE8400C41E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8418A3FB70C484137D7CD4A5 /* Pods-JOODITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +1000,7 @@
 		};
 		E77401022625AE8400C41E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F8C823E3E6F40047501891 /* Pods-JOODITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1023,7 @@
 		};
 		E77401042625AE8400C41E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95CCAA11DE2565F497B4210 /* Pods-JOODI-JOODIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +1044,7 @@
 		};
 		E77401052625AE8400C41E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80B2AD2BDB968FC66357D8C /* Pods-JOODI-JOODIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
