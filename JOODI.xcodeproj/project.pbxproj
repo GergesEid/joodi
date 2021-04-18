@@ -21,6 +21,7 @@
 		E71CAC9D262B491100313A0F /* Items + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CAC9C262B491100313A0F /* Items + TableView.swift */; };
 		E71CACA3262B4BC400313A0F /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */; };
 		E71CACA4262B4BC400313A0F /* ItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */; };
+		E741676E262C5E5900189405 /* OrderDetails+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741676D262C5E5900189405 /* OrderDetails+Location.swift */; };
 		E74E7FFB2629F43100B58F42 /* calendarTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */; };
 		E74E80052629F51500B58F42 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E80042629F51500B58F42 /* Notification.Name.swift */; };
 		E74E800D262A177D00B58F42 /* googleSearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */; };
@@ -112,6 +113,7 @@
 		E71CAC9C262B491100313A0F /* Items + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items + TableView.swift"; sourceTree = "<group>"; };
 		E71CACA1262B4BC400313A0F /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
 		E71CACA2262B4BC400313A0F /* ItemsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsTableViewCell.xib; sourceTree = "<group>"; };
+		E741676D262C5E5900189405 /* OrderDetails+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderDetails+Location.swift"; sourceTree = "<group>"; };
 		E74E7FFA2629F43100B58F42 /* calendarTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTimeViewController.swift; sourceTree = "<group>"; };
 		E74E80042629F51500B58F42 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
 		E74E800C262A177D00B58F42 /* googleSearchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleSearchAddressViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				E71CAC80262B40C300313A0F /* OrderDetailsViewController.swift */,
 				E71CAC88262B412A00313A0F /* OrderDetailsPresenter.swift */,
 				E71CAC9C262B491100313A0F /* Items + TableView.swift */,
+				E741676D262C5E5900189405 /* OrderDetails+Location.swift */,
 			);
 			path = OrderDetails;
 			sourceTree = "<group>";
@@ -742,6 +745,7 @@
 				E77B918C262A56B000199BF1 /* RegisterOrderModel.swift in Sources */,
 				E71CAC89262B412A00313A0F /* OrderDetailsPresenter.swift in Sources */,
 				E77401BB2626F99800C41E1D /* RigesterAnOrderExtension + UITextfieldDelegate.swift in Sources */,
+				E741676E262C5E5900189405 /* OrderDetails+Location.swift in Sources */,
 				E77B91C0262AF94B00199BF1 /* AddReviewViewController.swift in Sources */,
 				E7BE18C526289A8E00FA68C4 /* RegisterAnOrdeer + DropDown.swift in Sources */,
 				E77B9185262A27F300199BF1 /* RegisterAnOrdeerViewController + CheckValidPost.swift in Sources */,

@@ -14,7 +14,7 @@ protocol OrderDetailsView: class {
     func hideIndicatorAnimation()
     func fetchingDataSuccess()
     func showError(error: String)
-    func displayAllData (name:String, phone:String, time:String, shopper:String)
+    func displayAllData (name:String, phone:String, time:String, shopper:String, long:Double, lat:Double)
 }
 
 protocol ItemsCellView {
@@ -51,7 +51,9 @@ class OrderDetailsVCPresenter {
                 self.orderData = order
                 print(self.orderData!)
                 self.view?.fetchingDataSuccess()
-                self.view?.displayAllData(name: order.name ?? "", phone: order.phoneNumber ?? "", time: order.timeToDeliver ?? "", shopper: order.shopper ?? "")
+                let long = order.location?.value?.longitude
+                let lat = order.location?.value?.latitude
+                self.view?.displayAllData(name: order.name ?? "", phone: order.phoneNumber ?? "", time: order.timeToDeliver ?? "", shopper: order.shopper ?? "", long: long!, lat: lat!)
             }
         }
     }

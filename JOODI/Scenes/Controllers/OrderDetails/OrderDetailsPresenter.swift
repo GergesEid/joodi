@@ -25,10 +25,13 @@ extension OrderDetailsViewController: OrderDetailsView {
         print(error)
     }
     
-    func displayAllData(name: String, phone: String, time: String, shopper: String) {
+    func displayAllData(name: String, phone: String, time: String, shopper: String, long:Double, lat:Double) {
         nameLbl.text = "Name: \(name)"
         phoneLbl.text = "Phone Number: \(phone)"
         timeLbl.text = "Time To Deliver: \(time)"
         shopperLbl.text = "Shopper: \(shopper)"
+        // save location data
+        longitude = long
+        latitude = lat
     }
 }

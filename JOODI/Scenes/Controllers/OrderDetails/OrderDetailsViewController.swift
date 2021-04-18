@@ -18,6 +18,9 @@ class OrderDetailsViewController: UIViewController {
     var presenter: OrderDetailsVCPresenter!
     var orderData : OrderDetailsModel!
     
+    var latitude : Double?
+    var longitude : Double?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
@@ -28,4 +31,9 @@ class OrderDetailsViewController: UIViewController {
     @IBAction func dismissBtn(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func goToLocationBtn(_ sender: Any) {
+        directionWay()
+    }
+    
 }

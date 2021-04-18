@@ -117,6 +117,21 @@
                                 <rect key="frame" x="0.0" y="296.5" width="414" height="516.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQf-Ke-PmM">
+                                <rect key="frame" x="304" y="96.5" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BNX-Pg-GNb"/>
+                                    <constraint firstAttribute="width" constant="100" id="pPF-Jm-kG5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="18"/>
+                                <color key="tintColor" red="0.056298270820000003" green="0.69031471010000001" blue="0.66667491199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Location" image="location.fill" catalog="system">
+                                    <color key="titleColor" red="0.056298270820000003" green="0.69031471010000001" blue="0.66667491199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToLocationBtn:" destination="aNH-xe-s3Z" eventType="touchUpInside" id="xPj-P6-zKN"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHU-hq-TMo">
                                 <rect key="frame" x="10" y="55.5" width="60" height="40"/>
                                 <constraints>
@@ -135,6 +150,7 @@
                         <viewLayoutGuide key="safeArea" id="vjz-Yg-EdX"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="vjz-Yg-EdX" firstAttribute="trailing" secondItem="hQf-Ke-PmM" secondAttribute="trailing" constant="10" id="IK6-eI-S4Z"/>
                             <constraint firstItem="vjz-Yg-EdX" firstAttribute="bottom" secondItem="dng-kA-fS1" secondAttribute="bottom" id="RnU-x6-fQF"/>
                             <constraint firstItem="Kwf-e5-4fS" firstAttribute="centerX" secondItem="GPF-Ci-UmA" secondAttribute="centerX" id="Rtv-ll-RdQ"/>
                             <constraint firstItem="iHU-hq-TMo" firstAttribute="centerY" secondItem="Kwf-e5-4fS" secondAttribute="centerY" id="VWC-zJ-xXy"/>
@@ -143,6 +159,7 @@
                             <constraint firstItem="LjD-l5-QXY" firstAttribute="leading" secondItem="vjz-Yg-EdX" secondAttribute="leading" constant="10" id="Z0A-Vn-cLT"/>
                             <constraint firstItem="dng-kA-fS1" firstAttribute="top" secondItem="LjD-l5-QXY" secondAttribute="bottom" constant="10" id="bj9-N3-eyQ"/>
                             <constraint firstItem="dng-kA-fS1" firstAttribute="leading" secondItem="vjz-Yg-EdX" secondAttribute="leading" id="bm6-eB-x7n"/>
+                            <constraint firstItem="hQf-Ke-PmM" firstAttribute="top" secondItem="Kwf-e5-4fS" secondAttribute="bottom" constant="10" id="c2c-oE-g8i"/>
                             <constraint firstItem="ZDn-G7-jrq" firstAttribute="leading" secondItem="vjz-Yg-EdX" secondAttribute="leading" constant="20" id="dAz-W8-WVS"/>
                             <constraint firstItem="iHU-hq-TMo" firstAttribute="leading" secondItem="vjz-Yg-EdX" secondAttribute="leading" constant="10" id="rga-DY-n3v"/>
                             <constraint firstItem="ZDn-G7-jrq" firstAttribute="top" secondItem="Kwf-e5-4fS" secondAttribute="bottom" constant="30" id="sdP-XM-1Ol"/>
@@ -794,6 +811,7 @@
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="chevron.down" catalog="system" width="128" height="72"/>
         <image name="history" width="21.5" height="21.5"/>
+        <image name="location.fill" catalog="system" width="128" height="121"/>
         <image name="order" width="21.5" height="21.5"/>
         <image name="writing" width="21.5" height="21.5"/>
         <systemColor name="labelColor">
